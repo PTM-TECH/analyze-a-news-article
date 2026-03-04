@@ -2,6 +2,11 @@
 # -> helps remove punctuations and extract clean words.
 import re
 
+# dummy while loop for testing
+i = 0
+while i < 1:
+    break
+
 #function to count specific word
 def count_specific_word(text, search_word):
     if not text or not search_word:
